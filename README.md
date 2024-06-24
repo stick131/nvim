@@ -16,7 +16,7 @@
       
    ```
 6. Устанавливаем автоподсказки
-   :CocInstall coc-emmet
+   ```:CocInstall coc-emmet
    :CocInstall coc-css
    :CocInstall coc-cssmodules
    :CocInstall coc-json coc-tsserver
@@ -24,5 +24,6 @@
    :CocInstall coc-html-css-support
    :CocInstall coc-stylelint
    :CocInstall coc-svg
+   ```
 
 
