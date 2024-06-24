@@ -1,4 +1,4 @@
-#Установка
+# Установка
 1. Копируем репозиторий в папку .config
 ```git clone https://github.com/stick131/my-vim.git```
 2. Пермеменовываем папку в nvim
