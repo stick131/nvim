@@ -24,6 +24,7 @@
    :CocInstall coc-html-css-support
    :CocInstall coc-stylelint
    :CocInstall coc-svg
+   :CocInstall coc-prettier
    ```
 
 
