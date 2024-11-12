@@ -23,9 +23,10 @@ Plug 'scrooloose/syntastic'
 Plug 'https://github.com/wolandark/vim-live-server.git'
 Plug '907th/vim-auto-save'
 "Plug 'junegunn/fzf'
-Plug 'tpope/vim-obsession'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tc50cal/vim-terminal'
+
+
 
 
 
@@ -35,14 +36,6 @@ nmap <silent> <C-k> :CocCommand prettier.forceFormatDocument<CR>
 
 nmap <C-j> :TagbarToggle<CR>
 call plug#end()
-
-"автозагрузка проекта
-"autocmd VimEnter * if filereadable("Session.vim") | source Session.vim | endif
-
-"открытие терминала
-" Настройка терминала
-"nnoremap <C-w> :if !exists("t:terminal")<CR>:vsplit | term<CR>:let t:terminal=1<CR>:else<CR>:close<CR>:let t:terminal=0<CR>:endif<CR>
-
 
 
 "fzf Если файл уже открыт в vim, то перейти к нужному буферу
@@ -174,7 +167,7 @@ omap if <Plug>(coc-funcobj-i)
 xmap af <Plug>(coc-funcobj-a)
 omap af <Plug>(coc-funcobj-a)
 xmap ic <Plug>(coc-classobj-i)
-omap ic <Plug>(coc-classobj-i)
+4omap ic <Plug>(coc-classobj-i)
 xmap ac <Plug>(coc-classobj-a)
 omap ac <Plug>(coc-classobj-a)
 
